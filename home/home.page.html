@@ -1,0 +1,47 @@
+<ion-header  >
+  <ion-toolbar translucent>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+<br>
+  <ion-item >
+    <ion-label  position="stacked">Nombre de Usuario</ion-label>
+    <ion-input id="usuario" [(ngModel)] = "usuario"></ion-input>
+  </ion-item>
+  <br>
+  <section>
+    <ion-button expand="block" [routerLink] = "['/menu', usuario]">Ingresar</ion-button>
+  </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+  
+  <ion-footer collapse="fade">
+    <ion-toolbar>
+     
+      <h3>Nuestras redes Sociales:</h3>
+     
+      <pre><ion-icon name="logo-whatsapp"></ion-icon> +56942764178</pre>
+      
+      <pre><ion-icon name="logo-instagram"></ion-icon> @AnimeShopping</pre>
+      
+      <pre><ion-icon name="logo-facebook"></ion-icon> AnnimeShopping</pre>
+      <h3>Encuentranos en nuestro local en: </h3>
+      <p>Direccion: Av.La Florida 10265</p>
+    </ion-toolbar>
+  </ion-footer>
+
+
+
+  
+
+</ion-content>

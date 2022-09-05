@@ -1,0 +1,23 @@
+<ion-app>
+  <ion-menu side="end" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Categorías</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item routerLink = "/accesorios">  <ion-icon name="medal-outline"></ion-icon>Accesorios</ion-item>
+        <ion-item routerLink = "/ropa"> <ion-icon name="shirt-outline"> </ion-icon> Ropa</ion-item>
+        <ion-item routerLink = "/juguetes"> <ion-icon name="american-football-outline"></ion-icon> Juguetes</ion-item>
+        <ion-item routerLink= "menu"><ion-icon name="home-outline"></ion-icon> Inicio</ion-item>
+        <ion-item routerLink = "/home"><ion-icon name="exit-outline"></ion-icon> Salir</ion-item>
+     
+        
+
+
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
